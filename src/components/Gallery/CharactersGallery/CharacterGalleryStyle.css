@@ -1,0 +1,54 @@
+.cards-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+   margin-top: 20px;
+    width: 90%;
+    
+}
+.div-characters-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+img{
+    border-radius: 150px;  
+    width: 250px;
+ box-shadow: 0px 0px 40px 12px greenyellow;
+ background-image: url(https://i.pinimg.com/originals/98/29/21/9829215db6f9210c0ae4e318e854cb1f.png);
+
+}
+.cards{
+    margin: auto;
+    /* background-color:white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 150px;
+    background-image: url(https://static.videezy.com/system/resources/thumbnails/000/043/897/original/200206_01_Particle-star-fall-seamless-loop.jpg);
+    background-color: black;
+ color: white;
+ /* border: 2px solid greenyellow; */
+  /* background: #00b09b; 
+ background: -webkit-linear-gradient(to right, #00b09b, #96c93d); 
+ background: linear-gradient(to right,#00b03e, #96c93d); */
+ background-image: url(https://i.pinimg.com/originals/64/5c/8d/645c8d877f6e2aad7fa6545140c72a52.gif);
+ /* background-color: black; */
+background-size: 780px;
+background-repeat: no-repeat;
+background-position: center;
+padding: 20px;
+box-shadow: 0px 0px 40px 12px greenyellow;
+    color: black;
+    font-weight: bold;
+
+}
+.cards-box :hover{
+    -webkit-transform:scale(1.02);transform:scale(1.02);
+}

@@ -1,0 +1,39 @@
+
+body{
+
+  margin: 0px;
+  padding: 0px;
+}
+.padre-div{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images4.alphacoders.com/241/241114.jpg);
+background-size: cover;
+/* background-color: aquamarine; */
+}
+.padre-character{
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+background:black; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.detail{
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;  /* fallback for old browsers */
+
+
+}
