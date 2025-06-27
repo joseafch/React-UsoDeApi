@@ -1,12 +1,32 @@
+body{
+        margin: 0px;
+    pad: 0px;
+    background-color: black;
+}
 .div-home{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    /* height: 90vh; */
     
 }
 .title-home{
     font-size: 80px;
     color: white;
     
+}
+.img-tittle{
+    width: 100%;
+}
+.div-tittle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background: none;
+}
+.div-tittle_logo{
+    width: 50%;
 }

@@ -6,9 +6,9 @@ export default function CharactersGallery({items}){
     return(
         <div className="div-characters-gallery">
             <div className="cards-box">
-{  items.map((item,index)=>(
-    <div className="cards" Key={index}>
-<Link to={`/Characters/${item.id}`}><div><img src={item?.image} alt='aa'></img></div></Link>
+{  items.map((item)=>(
+    <div className="cards" key={item.id}>
+<Link to={`/Characters/${item.id}`}><div><img  src={item?.image} alt='aa' className="character-Galery-img"></img></div></Link>
 <p>{item?.name}</p>
     </div>
 ))}

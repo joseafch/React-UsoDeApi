@@ -1,6 +1,8 @@
 import { useEffect,useState  } from "react"
 import axios from 'axios';
 import './Episodios.css'
+import { Link } from "react-router-dom";
+
 
 export default function EpisodiosCharacter ({episodios}){
 // console.log("episodios",episodios)
@@ -23,7 +25,7 @@ const getEpisodios = async () => {
       console.error("Error cargando episodios:", error);
     }
   };
-      console.log("datos autilizar :", EpisodiosData);
+      // console.log("datos autilizar :", EpisodiosData);
 
   return (
     <div>
@@ -34,6 +36,7 @@ const getEpisodios = async () => {
             <th>Nombre</th>
             <th>Lanzamiento</th>
             <th>Temporada/episodio</th>
+            <th>mas Info</th>
           </tr>
         </thead>
         <tbody>
@@ -42,6 +45,7 @@ const getEpisodios = async () => {
               <td>{episodio?.name}</td>
               <td>{episodio?.air_date}</td>
               <td>{episodio?.episode}</td>
+              <td><Link to={`/Episode/${episodio.id}`}><button>+</button></Link></td>
             </tr>
           ))}
         </tbody>

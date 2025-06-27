@@ -4,3 +4,10 @@
     color: white;
     font-size: 20px;
 }
+.charachterDetail-gallery-img{
+    border-radius: 150px;  
+    width: 250px;
+ box-shadow: 0px 0px 40px 12px greenyellow;
+ background-image: url(https://i.pinimg.com/originals/98/29/21/9829215db6f9210c0ae4e318e854cb1f.png);
+
+}
